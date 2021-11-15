@@ -1,0 +1,14 @@
+class Demo 
+{
+	public static int a = 20;
+
+	public static void test()
+	{
+		System.out.println(a);/* direct access*/
+		System.out.println(Demo.a);/*through classname access*/
+	}
+	public static void main(String[] args) 
+	{
+		test();
+	}
+}

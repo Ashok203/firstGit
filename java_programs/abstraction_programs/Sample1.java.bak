@@ -1,0 +1,4 @@
+abstract class Sample1
+{
+	public void move();
+}

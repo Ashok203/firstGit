@@ -1,0 +1,11 @@
+/* WAP to create 1 static variable, 1 non-static variable, 1 static method, 1 non-static method, create local variable
+inside static method and non-static method and print local variable, print gobal variable in main method, and call methods from main method */
+
+class AllinOne  
+{
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

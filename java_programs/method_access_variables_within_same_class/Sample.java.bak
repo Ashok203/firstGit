@@ -1,0 +1,18 @@
+class Sample 
+{
+	public int z = 34;
+	public void display()
+	{
+		System.out.println(z);/* direct access*/
+		System.out.println(this.z);/* access through "this" keyword*/
+	}
+	public static void main(String[] args) 
+	{
+		Sample s1 = new Sample();
+		Sample s2 = new Sample();
+		Sample s3 = new Sample();
+		s1.display();
+		s2.display();
+		s3.display();
+	}
+}

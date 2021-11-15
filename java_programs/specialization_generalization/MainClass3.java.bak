@@ -1,0 +1,2 @@
+/* Define all the specialized method as non-static in the another  
+   class, and call the methods from main method in main class*/

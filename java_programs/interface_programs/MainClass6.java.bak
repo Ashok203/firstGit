@@ -1,0 +1,44 @@
+interface Sample4
+{
+	public void run();
+}
+
+interface Sample5
+{
+	public void run1();
+}
+
+interface Sample6
+{
+	public void run2();
+}
+
+class Demo4 implements Sample4,Sample5,Sample6
+{
+	public void run()
+	{
+		System.out.println("run 5kms....");
+	}
+
+	public void run1()
+	{
+		System.out.println("run 10kms...");
+	}
+
+	public void run2()
+	{
+		System.out.println("run 15kms...");
+	}
+}
+class MainClass6
+{
+	public static void main(String[] args)
+	{
+		Sample4 s4 = new Sample4();
+		Sample5 s5 = new Sample5();
+		Sample6 s6 = new Sample6();
+		s4.run();
+		s5.run1();
+		s6.run2();
+	}
+}
